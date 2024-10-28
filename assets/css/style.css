@@ -16,13 +16,35 @@ body {
     /* Generic Project*/
     color: #3a3a3a;
     font-family: 'Lato', sans-serif;
-
 }
 
 /* Haeder */
 header {
     background-color: lightcoral;
 }
+
+/* headings and logo */
+
+h1, h2{
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #252525;
+}
+<nav>
+            <ul id="menu">
+                <li>
+                    <a href="signup.html">Sign Up</a>
+                </li>
+                <li>
+                    <a href="gallery.html">Gallery</a>
+                </li>
+                <li>
+                    <a class="active" href="index.html">Home</a>
+                </li>
+
+            </ul>
+ </nav>
 
 /* Main Content */
 
