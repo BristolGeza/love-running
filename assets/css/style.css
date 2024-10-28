@@ -1,3 +1,20 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* General Style */
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* Generic Project*/
+    color: #3a3a3a;
+
+}
+
 /* Haeder */
 header {
     background-color: lightcoral;
@@ -7,6 +24,8 @@ header {
 
 main {
     background-color: lightblue;
+    flex: 1 0 auto;
+    
 }
 
 /* Footer */
